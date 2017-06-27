@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca');
+* {
+	box-sizing: border-box;
+	font-family: 'Fresca', sans-serif;
+}
+
+body {
+	margin: 0;
+	background: #5EA9C6;
+}
+
+h1 {
+	text-align: center;
+	line-height: 50px;
+	margin-top: 0;
+	background: #4D93AD;
+	color: white;
+	text-transform: uppercase;
+}
+
+.create-column {
+	margin: 20px auto;
+	display: block;
+	height: 4em;
+    padding: 10px 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.column-container {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	align-content: stretch;
+	justify-content: space-around;
+}
+
+.column {
+	border: 2px solid black;
+    border-radius: 5px;
+	width: 24%;
+	padding: 5px;
+	margin: 10px 0;
+	background: #E9E9EB;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+}
+
+.card, .add-card {
+	list-style-type: none;
+	background: white;
+	margin: 5px;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card-placeholder {
+	background: white;
+	border: 1px dotted black;
+	border-radius: 5px;
+}
+ul {
+	min-height: 50px;
+	padding: 10px;
+    cursor: pointer;
+}
+.btn-delete {
+	margin: 5px;
+    border-radius: 3px;
+    background-color: #4D93AD;
+    color: white;
+}
+.create-column {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
