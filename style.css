@@ -19,12 +19,14 @@ h1 {
 }
 
 .create-column {
+	font-size: 20px;
+	padding: 5px 80px;
 	margin: 20px auto;
 	display: block;
-	height: 4em;
-    padding: 10px 80px;
-    border: 2px solid black;
-    border-radius: 5px;
+    height: 3em;
+    border-radius: 3px;
+    background-color: #4D93AD;
+    color: white;
 }
 
 .column-container {
@@ -43,6 +45,12 @@ h1 {
 	margin: 10px 0;
 	background: #E9E9EB;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.column-add-card {
+	margin: 5px;
+    border-radius: 3px;
+    background-color: #4D93AD;
+    color: white; 
 }
 
 h2 {
